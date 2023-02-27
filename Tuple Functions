@@ -1,0 +1,8 @@
+#program for tuple function
+t=(10,20,30,40,50)
+print(t)
+print(max(t))
+print(len(t))
+print(min(t))
+t.index(30)
+t.count(40)
