@@ -1,0 +1,9 @@
+#program to check grade obtained by a student using if..else ladder
+marks=int(input("enter marks"))
+if marks>75:
+    print("Grade A")
+elif marks>60:
+    print("Grade B")
+else:
+    print("Grade C")
+    
