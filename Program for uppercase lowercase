@@ -1,0 +1,15 @@
+#Program to read a line and print its statistics as no of lowercase,uppercse,digits,alphabets
+>>> lc=uc=dc=ac=0
+>>> a=" Hello 123"
+>>> for i in a:
+if i.islower( ):
+lc=lc+1
+if i.isupper( ):
+uc=uc+1
+if i.isdigit( ):
+dc=dc+1
+if i.isalpha( ):
+ac=ac+1
+>>> print("no of lowercase,uppercse,digits,alphabets are")
+no of lowercase,uppercse,digits,alphabets are
+>>> print(lc,",",uc,",",dc,",",ac
