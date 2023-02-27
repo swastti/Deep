@@ -1,0 +1,9 @@
+#program to calculate average marks in 3 subjects using for loop
+sum=0
+print("enter marks")
+for i in range(3):
+    m=int(input("marks"))
+    sum=sum+m
+avg=sum/3
+print("sum=",sum)
+print("avg=",avg)
