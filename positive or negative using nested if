@@ -1,0 +1,12 @@
+# a program to check whether a number is positive or negative using nested if.
+x=int(input("enter x"))
+if x>=0:
+      if x==0:
+     print(x,"is zero")
+     else:
+     print(x,"is positive no")
+ elif:
+ print(x,"is a negative no")
+     
+     
+     
