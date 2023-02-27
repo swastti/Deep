@@ -1,0 +1,12 @@
+#Program for dictionary functions
+dict={"name":"ramesh","class":12}
+print(dict)
+dict["div"]='A'
+print(dict)
+dict.items()
+dict.keys()
+dict.values()
+dict["div"]='B'
+print(dict)
+print(len(dict))
+dict.get("name")
